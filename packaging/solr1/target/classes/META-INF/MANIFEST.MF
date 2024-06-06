@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Built-By: vderec
+Build-Jdk: 21.0.1
+Specification-Title: Alfresco Solr1 Distribution
+Specification-Vendor: Alfresco Software
+Implementation-Title: Alfresco Solr1 Distribution
+Implementation-Vendor-Id: org.alfresco
+Implementation-Vendor: Alfresco Software
+Implementation-URL: http://www.alfresco.org/alfresco-parent/alfresco-pac
+ kaging/alfresco-solr1-distribution/
+Build-Date: 2024-05-24T13:44:59Z
+Build-Key: BUILD-KEY-0
+Build-Name: Build-Name
+Build-Number: 0
+Build-Revision: 100000
+Created-By: Maven Integration for Eclipse
+Implementation-Version: 5.2.g
+Specification-Version: ${version.major}.${version.minor}.${version.revis
+ ion}
+

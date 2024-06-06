@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="alfresco-file-transfer-receiver">
+                
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+                
+        <wb-resource deploy-path="/" source-path="/source/web" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/source/java"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/config"/>
+        <dependent-module archiveName="alfresco-remote-api-5.2.g.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/alfresco-remote-api/alfresco-remote-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="alfresco-legacy-lucene-5.2.g.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/alfresco-legacy-lucene/alfresco-legacy-lucene">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="alfresco-mbeans-5.2.g.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/alfresco-mbeans/alfresco-mbeans">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="alfresco-greenmail-5.2.g.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/alfresco-greenmail/alfresco-greenmail">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="context-root" value="alfresco-file-transfer-receiver"/>
+                
+        <property name="java-output-path" value="/alfresco-file-transfer-receiver/target/classes"/>
+            
+    </wb-module>
+    
+</project-modules>
